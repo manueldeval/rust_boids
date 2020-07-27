@@ -1,0 +1,16 @@
+[package]
+name = "boids"
+version = "0.1.0"
+authors = ["manuel_deval <manuel.deval@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+vector2d = "2.2.0"
+rand = "0.7.3"
+
+[dependencies.sdl2]
+version = "0.34.2"
+default-features = false
+features = ["gfx"]
+
+
